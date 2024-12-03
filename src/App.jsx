@@ -8,9 +8,11 @@ function App() {
   useEffect(() => {
     (async () => {
       // 在github上的網址必須是公開的
-
-      const data = await axios.get('../public/json/F-C0032-001.json');
+      const data = await axios.get('https://huangihsuan.github.io/myWeather/json/F-C0032-001.json');
       console.log(data);
+
+      // const data = await axios.get('../public/json/F-C0032-001.json');
+      // console.log(data);
 
       // const { location } = data.data.cwaopendata.dataset;
     })
