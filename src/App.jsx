@@ -38,7 +38,7 @@ function App() {
                   下午6:00<br />
                 </p>
                 <div className="weather-icon">
-                  <img src="../public/weatherIcon/晴時多雲.svg" alt="" />
+                  <img src="weatherIcon/晴時多雲.svg" alt="" />
                   <p>晴時多雲</p>
                 </div>
                 <div className="rain-percent">
@@ -55,7 +55,7 @@ function App() {
                   下午6:00<br />
                 </p>
                 <div className="weather-icon">
-                  <img src="../public/weatherIcon/多雲時晴.svg" alt="" />
+                  <img src="weatherIcon/多雲時晴.svg" alt="" />
                   <p>多雲時晴</p>
                 </div>
                 <div className="rain-percent">
@@ -72,7 +72,7 @@ function App() {
                   下午6:00<br />
                 </p>
                 <div className="weather-icon">
-                  <img src="../public/weatherIcon/多雲短暫雨.svg" alt="" />
+                  <img src="weatherIcon/多雲短暫雨.svg" alt="" />
                   <p>多雲短暫雨</p>
                 </div>
                 <div className="rain-percent">
@@ -99,7 +99,7 @@ function App() {
                   下午6:00<br />
                 </p>
                 <div className="weather-icon">
-                  <img src="../public/weatherIcon/晴時多雲.svg" alt="" />
+                  <img src="weatherIcon/晴時多雲.svg" alt="" />
                   <p>晴時多雲</p>
                 </div>
                 <div className="rain-percent">
@@ -116,7 +116,7 @@ function App() {
                   下午6:00<br />
                 </p>
                 <div className="weather-icon">
-                  <img src="../public/weatherIcon/多雲時晴.svg" alt="" />
+                  <img src="weatherIcon/多雲時晴.svg" alt="" />
                   <p>多雲時晴</p>
                 </div>
                 <div className="rain-percent">
