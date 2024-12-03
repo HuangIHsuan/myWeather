@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* width:100%; */
+}
+
+/* 頁首區 */
+header img {
+    width: 100%;
+}
+
+/* 內容區 */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 課程特色 */
+#point {
+    display: flex;
+    margin: 30px 20px;
+}
+
+#point article {
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#point h2 {
+    color: rgb(233, 71, 90);
+    font-size: 1.3rem;
+}
+
+#point p {
+    margin-top: 10px;
+    color: #666;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* 標語區 */
+#slogan {
+    background-color: rgb(83, 144, 214);
+    width: 100%;
+}
+
+#slogan p {
+    padding: 15px;
+    color: white;
+    text-align: center;
+
+}
+
+/* 推薦課程 */
+
+#contentClass {
+    display: flex;   
+}
+#topic {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    color: rgb(233, 71, 90);
+    text-align: center;
+}
+#lecture article {
+    box-sizing: border-box;
+    width: 270px;
+    border: solid 1px rgba(158, 158, 158, 0.5);
+    padding: 20px;
+    margin: 10px;
+    box-shadow:0px 0px 10px rgba(158, 158, 158, 0.2);
+}
+#lecture figure {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#lecture img {
+    width: 100%;
+    object-fit: cover;
+}
+#lecture h3 {
+    margin: 5px 0px;
+}
+
+#lecture p {
+    font-size: 0.8rem;
+    color: #777;
+    padding-bottom: 5px;
+}
+#lecture .content {
+    color:rgb(83, 144, 214);
+}
+#lecture .price span{
+    font-size: 0.8rem;
+    color: #777;
+    text-decoration: solid #777 line-through;
+    margin-right: 5px;
+}
+#lecture .price {
+    font-size: 1.2rem;
+    color:rgb(233, 71, 90);
+    font-weight: 700;
+}
+#lecture .paybtn {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: rgb(233, 71, 90);
+    color: white;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+/* 頁尾區 */
+footer {
+    text-align: center;
+    background-color: rgb(83, 144, 214);
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
