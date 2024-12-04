@@ -20,12 +20,13 @@
 }
 .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
-#weather-card {
-    width: 50%;
+.weather-card {
+    width: 45%;
     margin: 12px;
     display: flex;
     justify-content: center;
@@ -35,7 +36,7 @@
     border-radius: 5px;
 }
 
-#weather-card .city {
+.weather-card .city {
     font-weight: 400;
     display: flex;
     justify-content: center;
@@ -49,7 +50,7 @@
 
 }
 
-#weather-card .weather-section {
+.weather-card .weather-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +58,7 @@
 
 }
 
-#weather-card .info {
+.weather-card .info {
     /* flex-grow: 1; */
     display: flex;
     justify-content: center;
@@ -67,12 +68,12 @@
 }
 
 
-#weather-card .info .date {
+.weather-card .info .date {
     font-size: 1.2rem;
     margin-bottom: 8px;
 }
 
-#weather-card .info .time {
+.weather-card .info .time {
     text-align: center;
     margin-bottom: 8px;
 }
@@ -93,4 +94,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.rain-percent figure {
+    margin-right: 4px;
 }
