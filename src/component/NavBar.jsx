@@ -13,6 +13,9 @@ function NavBar() {
                 <li>
                     <Link to='/news'>最新消息</Link>
                 </li>
+                <li>
+                    <Link to='/jquery'>Jquery</Link>
+                </li>
             </ul>
         </div>
     )
