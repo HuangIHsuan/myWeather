@@ -1,0 +1,16 @@
+.cssAni1 {
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    display: block;
+    overflow: hidden;
+}
+
+.cssAni1 img {
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.imgScale img {
+    transform: scale(1.5);
+}

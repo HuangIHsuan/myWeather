@@ -16,6 +16,12 @@ function NavBar() {
                 <li>
                     <Link to='/jquery'>Jquery</Link>
                 </li>
+                <li>
+                    <Link to='/login'>登入</Link>
+                </li>
+                <li>
+                    <Link to='/user'>會員頁</Link>
+                </li>
             </ul>
         </div>
     )

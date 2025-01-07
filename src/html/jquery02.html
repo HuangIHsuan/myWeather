@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cssAni1 {
+            border: solid 1px black;
+            width: 200px;
+            height: 200px;
+            display: block;
+            overflow: hidden;
+        }
+
+        .cssAni1 img {
+            width: 100%;
+            transition: all 0.4s;
+        }
+
+        .imgScale img {
+            transform: scale(1.5);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>動態新增刪除類別</h2>
+        <hr>
+        <ul>
+            <li>新增類別：addClass()</li>
+            <li>移除類別：removeClass()</li>
+        </ul>
+        <hr>
+
+        <a href="#" class="cssAni1">
+            <img src="./images/04.jpg" alt="">
+        </a>
+    </div>
+
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function () {
+            $('.cssAni1').hover(function () {
+                $(this).addClass('imgScale');
+            }, function () {
+                $(this).removeClass('imgScale');
+            })
+        });
+    </script>
+
+</body>
+
+</html>
